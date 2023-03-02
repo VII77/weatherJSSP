@@ -30,6 +30,15 @@
     }
   },
   "swagger": "2.0",
+    "info": {
+    "title": "Why API",
+    "description": "Don't make that mistake again",
+    "version": "0.0.1"
+},
+"host": "localhost:5003/weatherforecast",
+"schemes": [
+    "http"
+],
   "definitions": {
     "WeatherForecast": {
       "type": "object",
